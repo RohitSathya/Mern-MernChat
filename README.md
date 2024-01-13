@@ -1,1 +1,1 @@
-# Mern-MernChat
+# MernChat

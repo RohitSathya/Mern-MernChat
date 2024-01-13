@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+   
+  }
+  html,body,.chat-home{
+    height: 100%;
+  }
+  .chat-home{
+    height: 100vh;
+    background: url('https://images.pexels.com/photos/303383/pexels-photo-303383.jpeg?auto=compress&cs=tinysrgb&w=600') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff; /* Set text color to white or a suitable color for readability */
+    background-size: cover;
+  }
+  .content{
+    margin-left: -20px;
+    margin-top: -200px;
+    
+  }
+  .cta-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 230px;
+    margin-left: -500px;
+  }
+  
+  .login-button,
+  .signup-button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 1em;
+    background-color: purple; /* Green, replace with your preferred color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 35px;
+  }
+  
+  .login-button:hover,
+  .signup-button:hover {
+    background-color: black; /* Darker shade on hover, adjust accordingly */
+  }
+  
